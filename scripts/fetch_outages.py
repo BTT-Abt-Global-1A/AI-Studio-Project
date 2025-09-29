@@ -112,7 +112,10 @@ def main():
             # File year not requested in the manifest, skip it
             continue
         url = f["download_url"]  # public direct link
-        dest = Path(f"data/raw/outages/{yr}/{name}")
+        # EXTERNAL DRIVE CONFIGURATION - Update this path for your setup
+        # Using external drive "Academia" for large dataset storage
+        # Team members: modify this path to match your storage solution
+        dest = Path(f"/Volumes/Academia/AI-Studio-Project/data/raw/outages/{yr}/{name}")
         print(f"Downloading {name} → {dest}")
         stream_download(url, dest)
         found += 1

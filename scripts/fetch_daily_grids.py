@@ -95,7 +95,10 @@ def download_year(year: str, variables, level: str, months, exts, max_workers: i
         return 0
 
     print(f"[{year}] {len(keep)} files to download (of {len(entries)}).")
-    outdir = Path(f"data/raw/weather/daily_grids/{year}")
+    # EXTERNAL DRIVE CONFIGURATION - Update this path for your setup
+    # Using external drive "Academia" for large dataset storage
+    # Team members: modify this path to match your storage solution
+    outdir = Path(f"/Volumes/Academia/AI-Studio-Project/data/raw/weather/daily_grids/{year}")
     done = 0
 
     with ThreadPoolExecutor(max_workers=max_workers) as ex:
