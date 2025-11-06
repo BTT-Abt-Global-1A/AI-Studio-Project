@@ -1,0 +1,8 @@
+{
+  "years": ["2014"],
+  "variables": ["tmax", "tmin", "prcp"],   
+  "level": "cty",                          
+  "months": [],                            
+  "extensions": [".csv"],                  
+  "max_workers": 6                         
+}

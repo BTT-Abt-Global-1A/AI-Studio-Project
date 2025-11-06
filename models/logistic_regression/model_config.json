@@ -1,0 +1,14 @@
+{
+  "model_type": "LogisticRegression",
+  "feature_count": 5,
+  "optimal_threshold": 0.4747474747474748,
+  "training_samples": 219876,
+  "test_samples": 73292,
+  "model_parameters": {
+    "C": 1.0,
+    "class_weight": "balanced",
+    "solver": "liblinear",
+    "penalty": "l2",
+    "max_iter": 1000
+  }
+}
