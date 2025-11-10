@@ -1,3 +1,6 @@
 data/
+datasets/
+data/raw/
+data/processed/
 .env
 project_objective.md
