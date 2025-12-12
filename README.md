@@ -267,6 +267,6 @@ If we had more time (and data access), here's what we'd do:
 
 ---
 
-<div align="center">
-  <i>This project was developed as part of Cornell Tech's AI Studio program in collaboration with Abt Global.</i>
-</div>
+## Acknowledgements
+
+This project was completed as part of Cornell Tech’s AI Studio program through Break Through Tech. We are grateful to our Challenge Advisor, teaching assistants, and the team at Abt Global for their guidance, support, and thoughtful feedback throughout the project.
